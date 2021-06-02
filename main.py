@@ -19,7 +19,7 @@ def create_dict(gt_file):
         element = lines[i]
 
         if element[-3:] == 'jpg':
-            key = element[2:]
+            key = element
             value = []
             gt_dict[key] = value
 
